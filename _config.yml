@@ -43,7 +43,7 @@ last_edit_time_format: "%e %b %Y @ %I:%M %p" # uses ruby's time format: https://
 
 # Build settings
 remote_theme: just-the-docs/just-the-docs
-theme: just-the-docs
+# theme: just-the-docs
 color_scheme: dark
 plugins:
   - jekyll-feed
