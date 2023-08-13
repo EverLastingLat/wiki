@@ -22,6 +22,7 @@ title: EverLasting Wiki
 email: everlasting.lat@gmail.com
 # logo: "https://raw.githubusercontent.com/EverLastingLat/EverLasitngLat.github.io/main/utils/media/icons/evla_50.ico"
 favicon_ico: "/evla_minimal.ico"
+lang: es
 
 # Aux links for the upper right navigation
 aux_links:
@@ -39,11 +40,11 @@ footer_content: "Si tienes dudas, visita nuestro <a href='http://discord.everlas
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%e %b %Y @ %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+last_edit_time_format: "%e/%m/%Y @ %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Build settings
+theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
-# theme: just-the-docs
 color_scheme: dark
 plugins:
   - jekyll-feed
