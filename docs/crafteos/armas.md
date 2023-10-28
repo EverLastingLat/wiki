@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: developing
 title: Armas
 parent: Crafteos
 permalink: /crafteos/armas
